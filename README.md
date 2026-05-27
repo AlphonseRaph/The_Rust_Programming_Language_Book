@@ -32,6 +32,10 @@ This repository contains my progress and exercises as I work through "The Rust P
 - **Path:** `ownership/src/main.rs`
 - **Description:** Deep dive into Rust's most unique feature: ownership. Covers stack vs. heap memory, variable scope, the `String` type, moving, cloning, and how ownership works with functions.
 
+### 8. [References and Borrowing](./references_and_borrowing)
+- **Path:** `references_and_borrowing/src/main.rs`
+- **Description:** Explores the concepts of references and borrowing, allowing data access without taking ownership. Covers immutable and mutable references, data race prevention, and string slices (&str).
+
 ## How to Run
 
 To run any of the projects, navigate into its directory and use Cargo:
