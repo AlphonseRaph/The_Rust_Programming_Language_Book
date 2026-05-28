@@ -36,6 +36,22 @@ This repository contains my progress and exercises as I work through "The Rust P
 - **Path:** `references_and_borrowing/src/main.rs`
 - **Description:** Explores the concepts of references and borrowing, allowing data access without taking ownership. Covers immutable and mutable references, data race prevention, and string slices (&str).
 
+### 9. [Structs](https://github.com/AlphonseRaph/The_Rust_Programming_Language_Book/blob/master/structs)
+
+- **Path:** `structs/src/main.rs`
+- **Description:** Covers Chapter 5 of the book — Structs. Demonstrates
+  defining basic structs (e.g. User), tuple structs (e.g. Color, Point),
+  adding methods with `impl`, associated functions as constructors,
+  and debug printing with `{:?}`.
+
+### 10. [Rectangles](https://github.com/AlphonseRaph/The_Rust_Programming_Language_Book/blob/master/structs/rectangles)
+
+- **Path:** `structs/rectangles/src/main.rs`
+- **Description:** A worked example from Chapter 5 — calculates the area
+  of a rectangle using a struct. Demonstrates refactoring from plain
+  variables to tuples to a named struct, and using `impl` to add
+  an `area` method directly on the Rectangle struct.
+
 ## How to Run
 
 To run any of the projects, navigate into its directory and use Cargo:
