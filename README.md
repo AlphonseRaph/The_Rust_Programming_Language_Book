@@ -52,6 +52,15 @@ This repository contains my progress and exercises as I work through "The Rust P
   variables to tuples to a named struct, and using `impl` to add
   an `area` method directly on the Rectangle struct.
 
+### 11. [Enums and Pattern Matching](./enums_and_pattern_matching)
+
+- **Path:** `enums_and_pattern_matching/src/main.rs`
+- **Description:** Covers Chapter 6 of the book — Enums and Pattern Matching.
+  Demonstrates defining enums with various types of associated data,
+  implementing methods on enums, using the `Option` enum for null safety,
+  and exhaustive pattern matching with `match`. Also covers `if let`,
+  `let else`, and using `_` as a catch-all pattern.
+
 ## How to Run
 
 To run any of the projects, navigate into its directory and use Cargo:
