@@ -61,6 +61,11 @@ This repository contains my progress and exercises as I work through "The Rust P
   and exhaustive pattern matching with `match`. Also covers `if let`,
   `let else`, and using `_` as a catch-all pattern.
 
+### 12. [Packages, Crates, and Modules](./packages_crates_modules)
+
+- **Path:** `packages_crates_modules/src/main.rs` and `packages_crates_modules/restaurant/src/lib.rs`
+- **Description:** Covers Chapter 7 of the book — Managing Growing Projects with Packages, Crates, and Modules. Demonstrates organizing code using modules, controlling visibility with the `pub` keyword, using absolute and relative paths (including `super` and `crate`), and bringing paths into scope with the `use` keyword. It also covers re-exporting with `pub use`, using external packages, and the multi-file module system.
+
 ## How to Run
 
 To run any of the projects, navigate into its directory and use Cargo:
