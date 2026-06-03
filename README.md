@@ -66,6 +66,14 @@ This repository contains my progress and exercises as I work through "The Rust P
 - **Path:** `packages_crates_modules/src/main.rs` and `packages_crates_modules/restaurant/src/lib.rs`
 - **Description:** Covers Chapter 7 of the book — Managing Growing Projects with Packages, Crates, and Modules. Demonstrates organizing code using modules, controlling visibility with the `pub` keyword, using absolute and relative paths (including `super` and `crate`), and bringing paths into scope with the `use` keyword. It also covers re-exporting with `pub use`, using external packages, and the multi-file module system.
 
+### 13. [Common Collections](./collections)
+
+- **Path:** `collections/src/main.rs`
+- **Description:** Covers Chapter 8 of the book — Common Collections. Explores the three most common collections in Rust:
+  - **Vectors (`Vec<T>`):** Storing lists of values, handling indices safely with `get`, and the borrow checker's role in preventing memory errors.
+  - **Strings:** Understanding UTF-8 encoding, why direct indexing is disallowed, and efficient ways to concatenate and iterate over text.
+  - **Hash Maps:** Storing key-value pairs, managing ownership, and various strategies for updating values (including `entry` and `or_insert`).
+
 ## How to Run
 
 To run any of the projects, navigate into its directory and use Cargo:
